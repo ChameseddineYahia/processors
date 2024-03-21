@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import Mock, patch
 from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
-from ..azureBlobStorage import AzureBlobProcessor
+from ..lib.azureBlobStorage import AzureBlobProcessor
 
 @pytest.fixture
 def mock_blob_service_client():

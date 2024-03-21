@@ -2,7 +2,7 @@ from azure.data.tables import TableServiceClient, TableClient
 from azure.core.exceptions import ResourceExistsError
 from azure.core.credentials import AzureNamedKeyCredential
 import logging
-from config import flow_config
+from azure_storage_provider.lib.config import flow_config
 import uuid
 
 class AzureTableStorage:

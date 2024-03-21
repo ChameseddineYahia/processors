@@ -1,5 +1,5 @@
 import pytest
-from ..MsServerSQL import SQLServerDatabase
+from ..lib.MsServerSQL import SQLServerDatabase
 
 # Fixture to set up a test SQLServerDatabase instance
 @pytest.fixture
